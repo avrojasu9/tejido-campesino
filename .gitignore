@@ -1,0 +1,20 @@
+# Private or local data must never be committed.
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.sqlite
+*.db
+__pycache__/
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.tmp
+# Internal proposal documents, financial records, community data:
+**/privado/
+**/private/
+**/finanzas-internas/
+**/datos-comunitarios/
